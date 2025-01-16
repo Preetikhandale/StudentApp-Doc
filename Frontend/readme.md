@@ -1,9 +1,12 @@
 1}Edit index.html file and add backend URL
 
+
 2}Create Docker Image
+
     docker build -t apache .
     
 3}Create Docker Container
+
     docker run -itd --name apache-fe -p 80:80 apache
 
 4}Go to browser add public ip of instance you will see following Output
